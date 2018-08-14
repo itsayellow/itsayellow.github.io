@@ -27,4 +27,4 @@ To serve to local server
 ------------------------
 
 # use live reload 
-jekyll serve -l
+bundle exec jekyll serve -l
