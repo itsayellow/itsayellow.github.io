@@ -1,5 +1,6 @@
 ---
 title: itsayellow.github.io
+layout: default
 ---
 # itsayellow.github.io
 
