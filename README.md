@@ -1,3 +1,6 @@
+---
+title: itsayellow.github.io
+---
 # itsayellow.github.io
 
 ## My Projects:
