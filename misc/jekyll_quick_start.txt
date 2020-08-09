@@ -1,5 +1,7 @@
-From https://jekyllrb.com/docs/quickstart/
+From https://jekyllrb.com/docs/quickstart/ (and me)
 ------------------------------------------
+# add homebrew ruby to path
+export PATH="/usr/local/opt/ruby/bin:$PATH
 
 # Install Jekyll and Bundler gems through RubyGems
 gem install jekyll bundler
@@ -18,13 +20,18 @@ bundle exec jekyll serve
 
 To update theme or gems
 -----------------------
-
 # edit Gemfile
 bundle
 
 
+To upgrade one or more gems
+---------------------------
+bundle update --all
+
+bundle update package_name
+
+
 To serve to local server
 ------------------------
-
 # use live reload 
 bundle exec jekyll serve -l
